@@ -1,0 +1,9 @@
+{
+    "name" : "meteosales/bbcpos",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MeteoSales\\bbcpos\\": "src"
+        }
+    }
+}
