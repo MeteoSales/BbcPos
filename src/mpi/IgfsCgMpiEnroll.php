@@ -1,9 +1,9 @@
 <?php
 
-namespace BbcPos\mpi;
+namespace bbcpos\mpi;
 
-use BbcPos\Exception;
-use BbcPos\IgfsUtils;
+use bbcpos\Exception;
+use bbcpos\IgfsUtils;
 
 class IgfsCgMpiEnroll extends BaseIgfsCgMpi {
 
