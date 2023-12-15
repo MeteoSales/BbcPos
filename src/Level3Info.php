@@ -1,6 +1,6 @@
 <?php
 
-namespace BbcPos;
+namespace bbcpos;
 
 
 class Level3Info {
