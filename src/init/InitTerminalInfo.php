@@ -1,8 +1,8 @@
 <?php
 
-namespace BbcPos\init;
+namespace bbcpos\init;
 
-use BbcPos\IgfsUtils;
+use bbcpos\IgfsUtils;
 
 class InitTerminalInfo {
 	
