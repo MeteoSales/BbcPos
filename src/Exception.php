@@ -1,6 +1,6 @@
 <?php
 
-namespace BbcPos;
+namespace bbcpos;
 
 class IgfsException extends Exception { }
 class IgfsMissingParException extends Exception { }
