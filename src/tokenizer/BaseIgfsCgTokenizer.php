@@ -1,10 +1,10 @@
 <?php
 
-namespace BbcPos\tokenizer;
+namespace bbcpos\tokenizer;
 
-use BbcPos\Exception;
-use BbcPos\IgfsUtils;
-use BbcPos\BaseIgfsCg;
+use bbcpos\Exception;
+use bbcpos\IgfsUtils;
+use bbcpos\BaseIgfsCg;
 
 abstract class BaseIgfsCgTokenizer extends BaseIgfsCg {
 
