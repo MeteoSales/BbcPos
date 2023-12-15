@@ -1,9 +1,9 @@
 <?php
 
-namespace BbcPos;
+namespace bbcpos;
 
-use BbcPos\Exception;
-use BbcPos\IgfsUtils;
+use bbcpos\Exception;
+use bbcpos\IgfsUtils;
 
 
 abstract class BaseIgfsCg {
