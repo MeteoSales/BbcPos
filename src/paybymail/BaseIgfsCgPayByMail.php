@@ -1,9 +1,9 @@
 <?php
 
-namespace BbcPos\paybymail;
+namespace bbcpos\paybymail;
 
-use BbcPos\BaseIgfsCg;
-use BbcPos\IgfsUtils;
+use bbcpos\BaseIgfsCg;
+use bbcpos\IgfsUtils;
 
 abstract class BaseIgfsCgPayByMail extends BaseIgfsCg {
 
