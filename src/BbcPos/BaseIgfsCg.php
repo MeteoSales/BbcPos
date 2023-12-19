@@ -2,8 +2,8 @@
 
 namespace BbcPos;
 
-use Exception;
-use IgfsUtils;
+use BbcPos\Exception;
+use BbcPos\IgfsUtils;
 
 
 abstract class BaseIgfsCg {
