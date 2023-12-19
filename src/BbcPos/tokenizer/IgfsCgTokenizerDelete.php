@@ -1,10 +1,10 @@
 <?php
 
-namespace bbcpos\tokenizer;
+namespace BbcPos\tokenizer;
 
-use bbcpos\Exception;
-use bbcpos\IgfsUtils;
-use bbcpos\BaseIgfsCg;
+use BbcPos\Exception\IgfsMissingParException;
+use BbcPos\IgfsUtils;
+use BbcPos\BaseIgfsCg;
 
 class IgfsCgTokenizerDelete extends BaseIgfsCgTokenizer {
 

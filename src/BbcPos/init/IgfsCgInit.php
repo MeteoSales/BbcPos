@@ -1,9 +1,9 @@
 <?php
 
-namespace bbcpos\init;
+namespace BbcPos\init;
 
-use bbcpos\Exception;
-use bbcpos\IgfsUtils;
+use BbcPos\Exception\IgfsMissingParException;
+use BbcPos\IgfsUtils;
 
 class IgfsCgInit extends BaseIgfsCgInit {
 

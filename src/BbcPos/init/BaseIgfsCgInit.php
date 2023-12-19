@@ -1,9 +1,9 @@
 <?php
 
-namespace bbcpos\init;
+namespace BbcPos\init;
 
-use bbcpos\BaseIgfsCg;
-use bbcpos\Exception;
+use BbcPos\BaseIgfsCg;
+use BbcPos\Exception\IgfsMissingParException;
 
 abstract class BaseIgfsCgInit extends BaseIgfsCg {
 
@@ -21,7 +21,7 @@ abstract class BaseIgfsCgInit extends BaseIgfsCg {
 	protected function checkFields() {
 		parent::checkFields();
 		if ($this->shopID == NULL || "" == $this->shopID)
-			throw new IgfsMissingParException("Missing shopID");
+			throw new IgfsMissingParException("Missing shopID"); // Use the imported IgfsMissingParException class
 	}
 
 	protected function buildRequest() {

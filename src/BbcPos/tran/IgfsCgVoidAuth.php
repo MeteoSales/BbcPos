@@ -1,10 +1,10 @@
 <?php
 
-namespace bbcpos\tran;
+namespace BbcPos\tran;
 
-use bbcpos\Exception;
-use bbcpos\IgfsUtils;
-use bbcpos\BaseIgfsCg;
+use BbcPos\Exception\IgfsMissingParException;
+use BbcPos\IgfsUtils;
+use BbcPos\BaseIgfsCg;
 
 class IgfsCgVoidAuth extends BaseIgfsCgTran {
 

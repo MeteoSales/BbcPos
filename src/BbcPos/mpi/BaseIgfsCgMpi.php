@@ -1,10 +1,10 @@
 <?php
 
-namespace bbcpos\mpi;
+namespace BbcPos\mpi;
 
-use bbcpos\BaseIgfsCg;
-use bbcpos\IgfsUtils;
-use bbcpos\Exception;
+use BbcPos\BaseIgfsCg;
+use BbcPos\IgfsUtils;
+use BbcPos\Exception\IgfsMissingParException;
 
 abstract class BaseIgfsCgMpi extends BaseIgfsCg {
 

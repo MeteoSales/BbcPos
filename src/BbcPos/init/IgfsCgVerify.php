@@ -1,10 +1,10 @@
 <?php
 
-namespace bbcpos\init;
+namespace BbcPos\init;
 
-use bbcpos\Exception;
-use bbcpos\IgfsUtils;
-use bbcpos\Level3Info;
+use BbcPos\Exception\IgfsMissingParException;
+use BbcPos\IgfsUtils;
+use BbcPos\Level3Info;
 
 class IgfsCgVerify extends BaseIgfsCgInit {
 

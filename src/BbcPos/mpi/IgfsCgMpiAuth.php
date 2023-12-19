@@ -1,9 +1,9 @@
 <?php
 
-namespace bbcpos\mpi;
+namespace BbcPos\mpi;
 
-use bbcpos\IgfsUtils;
-use bbcpos\Exception;
+use BbcPos\IgfsUtils;
+use BbcPos\Exception\IgfsMissingParException;
 
 class IgfsCgMpiAuth extends BaseIgfsCgMpi {
 
