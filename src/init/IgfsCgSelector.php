@@ -1,10 +1,10 @@
 <?php
 
-namespace BbcPos\init;
+namespace bbcpos\init;
 
-use BbcPos\init\BaseIgfsCg;
-use BbcPos\Exception;
-use BbcPos\IgfsUtils;
+use bbcpos\init\BaseIgfsCg;
+use bbcpos\Exception;
+use bbcpos\IgfsUtils;
 
 class IgfsCgSelector extends BaseIgfsCgInit {
 

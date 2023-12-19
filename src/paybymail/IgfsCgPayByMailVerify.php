@@ -1,10 +1,10 @@
 <?php
 
-namespace BbcPos\paybymail;
+namespace bbcpos\paybymail;
 
-use BbcPos\BaseIgfsCg;
-use BbcPos\IgfsUtils;
-use BbcPos\Exception;
+use bbcpos\BaseIgfsCg;
+use bbcpos\IgfsUtils;
+use bbcpos\Exception;
 
 class IgfsCgPayByMailVerify extends BaseIgfsCgPayByMail {
 

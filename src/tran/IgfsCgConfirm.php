@@ -1,10 +1,10 @@
 <?php
 
-namespace BbcPos\tran;
+namespace bbcpos\tran;
 
-use BbcPos\Exception;
-use BbcPos\IgfsUtils;
-use BbcPos\BaseIgfsCg;
+use bbcpos\Exception;
+use bbcpos\IgfsUtils;
+use bbcpos\BaseIgfsCg;
 
 class IgfsCgConfirm extends BaseIgfsCgTran {
 
